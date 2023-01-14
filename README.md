@@ -15,6 +15,10 @@ Scithon is a general Physics lab simulation. Nothing to crazy will be happening 
 - Pygame (maybe idk yet)
 
 ## Status
+
+### Bugs
+
+### Interactions 
 - [ ] Base GUI
 - [ ] Sliders
 - [ ] Object menu
