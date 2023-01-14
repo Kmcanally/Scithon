@@ -15,16 +15,16 @@ Scithon is a general Physics lab simulation. Nothing to crazy will be happening 
 - Pygame (maybe idk yet)
 
 ## Status
-- [] Base GUI
-- [] Sliders
-- [] Object menu
-- [] Collision detection
+- [ ] Base GUI
+- [ ] Sliders
+- [ ] Object menu
+- [ ] Collision detection
 
 ### Objects
-- [] Box
-- [] Circle
-- [] Rod
-- [] Rope
-- [] Pin (pins objects in place)
+- [ ] Box
+- [ ] Circle
+- [ ] Rod
+- [ ] Rope
+- [ ] Pin (pins objects in place)
 
 
