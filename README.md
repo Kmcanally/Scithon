@@ -12,14 +12,14 @@ Scithon is a general Physics lab simulation. Nothing to crazy will be happening 
 ## Technologies
 - Python 3.11
 - Tkinter
-- Pygame (maybe idk yet)
+- Pygame
 
 ## Status
 
 ### Bugs
 
 ### Interactions 
-- [ ] Base GUI
+- [x] Base GUI
 - [ ] Sliders
 - [ ] Object menu
 - [ ] Collision detection

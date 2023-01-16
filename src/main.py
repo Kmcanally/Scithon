@@ -3,18 +3,35 @@ from tkinter.ttk import *
 #import pygame
 
 
-# main window named root
-root = Tk()
+def GUI():
+    # main window named root
+    root = Tk()
 
-# setting the dimensions of the window
-root.geometry("500x500")
+    # title of "root"
+    root.title("Scithon")
 
-# adding a title to root
-root.title("Scithon")
+    # dimensions of root
+    window_height = 720
+    window_width = 1080
 
-object_Menu = Button(root, text = "shapes").place(relx = 1, rely = 0, anchor = "ne")
+    # get the screen dimension
+    screen_width = root.winfo_screenwidth()
+    screen_height = root.winfo_screenheight()
 
-#* mainloop is used when application is ready to run and tells the code to keep displaying
-root.mainloop()
+    # find the center point
+    center_x = int(screen_width/2 - window_width / 2)
+    center_y = int(screen_height/2 - window_height / 2)
+
+    # set the position of the window to the center of the screen
+    root.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')
+
+    # creating a button in the north east of the root
+    object_Menu = Button(root, text = "shapes").place(relx = 1, rely = 0, anchor = "ne")
+
+    #* mainloop is used when application is ready to run and tells the code to keep displaying
+    root.mainloop()
+
+GUI()
+
 
 
