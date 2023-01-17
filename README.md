@@ -7,7 +7,7 @@ Science lab in python
 - [Status](#status)
 
 ## General Info
-Scithon is a general Physics lab simulation. Nothing to crazy will be happening as of yet.
+Scithon is a general Physics lab simulation. Nothing too crazy will be happening as of yet.
 
 ## Technologies
 - Python 3.11
