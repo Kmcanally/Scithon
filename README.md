@@ -15,6 +15,7 @@ Scithon is a general Physics lab simulation. Nothing to crazy will be happening 
 - Pygame
 
 ## Status
+shapes button need a function that opens up a menu where the user can retrieve their shapes
 
 ### Bugs
 
